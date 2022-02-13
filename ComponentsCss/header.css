@@ -40,11 +40,6 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41; border-radius: 3rem 0rem 0rem 3rem; color: white;}
-  
-  
-
-
-
 
 .header {
     height: 10vh;
