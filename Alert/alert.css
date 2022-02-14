@@ -3,6 +3,14 @@
 @import "../ComponentsCss/global.css";
 @import "../ComponentsCss/body.css"; 
 
+:root{
+    --danger:#F8D7DA;
+    --warning:#FFF3CD;
+    --dark: #1f1e1e;
+    --success:#D4EDDA;
+    --primary: #CCE5FF;
+    --light:#E2E3E5;
+}
 
 
 .center .alert-head{
@@ -35,27 +43,27 @@
     border: solid;
 }
 .center .alert-cont .alert.alert-danger{
-    background-color: #F8D7DA;
+    background-color: var(--danger);
     color: #c201018e;
 }
 .center .alert-cont .alert.alert-warning{
-    background-color: #FFF3CD;
+    background-color: var(--warning);
     color: #AC934F;
 }
 .center .alert-cont .alert.alert-dark{
-    background-color: #1f1e1e;
+    background-color: var(--dark)
     color: #eceff1;
 }
 .center .alert-cont .alert.alert-success{
-    background-color: #D4EDDA;
+    background-color: var(--success);
     color: #8AA98D;
 }
 .center .alert-cont .alert.alert-light{
-    background-color: #E2E3E5;
+    background-color: var(--light);
     color: #8D9295;
 }
 .center .alert-cont .alert.alert-primary{
-    background-color: #CCE5FF;
+    background-color: var(--primary)
     color: #5882AE;
 }
     
