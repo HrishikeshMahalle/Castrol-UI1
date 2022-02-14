@@ -27,9 +27,9 @@ body{
     padding: 1rem;
     font-size: 1.5rem;
 } */
-@import "../ComponentsCss/header.css";
-@import "../ComponentsCss/global.css";
-@import "../ComponentsCss/body.css"; 
+@import "/ComponentsCss/header.css";
+@import "/ComponentsCss/global.css";
+@import "/ComponentsCss/body.css"; 
 
 .center .input-box{
     display: flex;

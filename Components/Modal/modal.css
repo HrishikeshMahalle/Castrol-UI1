@@ -1,6 +1,6 @@
-@import "../ComponentsCss/header.css";
-@import "../ComponentsCss/global.css";
-@import "../ComponentsCss/body.css"; 
+@import "/ComponentsCss/header.css";
+@import "/ComponentsCss/global.css";
+@import "/ComponentsCss/body.css"; 
 
 .modal-item{
   width: 100%;

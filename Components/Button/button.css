@@ -31,9 +31,9 @@ body{
 .center .head h1{
     border-bottom: 0.2rem solid red;
 } */
-@import "../ComponentsCss/header.css";
-@import "../ComponentsCss/global.css";
-@import "../ComponentsCss/body.css"; 
+@import "/ComponentsCss/header.css";
+@import "/ComponentsCss/global.css";
+@import "/ComponentsCss/body.css"; 
 
 
 .center .show-square{

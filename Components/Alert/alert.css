@@ -1,7 +1,6 @@
-
-@import "../ComponentsCss/header.css";
-@import "../ComponentsCss/global.css";
-@import "../ComponentsCss/body.css"; 
+@import "/ComponentsCss/header.css";
+@import "/ComponentsCss/global.css";
+@import "/ComponentsCss/body.css"; 
 
 :root{
     --danger:#F8D7DA;
@@ -51,7 +50,7 @@
     color: #AC934F;
 }
 .center .alert-cont .alert.alert-dark{
-    background-color: var(--dark)
+    background-color: var(--dark);
     color: #eceff1;
 }
 .center .alert-cont .alert.alert-success{
@@ -63,7 +62,7 @@
     color: #8D9295;
 }
 .center .alert-cont .alert.alert-primary{
-    background-color: var(--primary)
+    background-color: var(--primary);
     color: #5882AE;
 }
     

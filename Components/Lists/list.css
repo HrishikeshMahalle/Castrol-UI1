@@ -1,7 +1,7 @@
-@import "../ComponentsCss/header.css";
-@import "../ComponentsCss/global.css";
-@import "../ComponentsCss/body.css";
-@import "../ComponentsCss/code.css";
+@import "/ComponentsCss/header.css";
+@import "/ComponentsCss/global.css";
+@import "/ComponentsCss/body.css";
+@import "/ComponentsCss/code.css";
 
 .list-cont{
     border: solid;
