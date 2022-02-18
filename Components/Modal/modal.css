@@ -1,17 +1,21 @@
 @import "/ComponentsCss/header.css";
 @import "/ComponentsCss/global.css";
 @import "/ComponentsCss/body.css"; 
+@import url(/ComponentsCss/describe.css);
+@import url(/ComponentsCss/code.css);
 
 .modal-item{
   width: 100%;
   display: flex;
   justify-content: center;
-  height: 4rem;
+  height: auto;
 }
 
 #modal-opener{
   color: white;
   background-color: #6E14EF;
+  height: 5rem;
+  margin: 1rem;
   border-radius: 10px;
   text-decoration: none;
   font-size: larger;

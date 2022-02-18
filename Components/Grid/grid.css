@@ -1,10 +1,11 @@
-@import "../ComponentsCss/header.css";
-@import "../ComponentsCss/global.css";
-@import "../ComponentsCss/body.css";
-@import "../ComponentsCss/code.css";
+@import "/ComponentsCss/header.css";
+@import "/ComponentsCss/global.css";
+@import "/ComponentsCss/body.css";
+@import "/ComponentsCss/code.css";
+@import url(/ComponentsCss/describe.css);
 
 :root{
-    --gird-item-color:#a9a9a9;
+    --gird-item-color:#009A4E;
 }
 
 .center .grid-head{
@@ -21,7 +22,7 @@
     width: 100%;
 }
 
-.center .grid-items-3{
+.grid-items-3{
     display: grid;
     border: solid;
     width: auto;
@@ -38,7 +39,7 @@
     background-color:var(--gird-item-color)
 }
 
-.center .grid-items-2{
+.grid-items-2{
     display: grid;
     border: solid;
     width: auto;

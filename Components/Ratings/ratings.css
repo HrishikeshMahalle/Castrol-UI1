@@ -1,7 +1,8 @@
 @import "/ComponentsCss/header.css";
 @import "/ComponentsCss/global.css";
-@import "/ComponentsCss/body.css";
-@import "/ComponentsCss/code.css";
+@import "/ComponentsCss/body.css"; 
+@import url(/ComponentsCss/describe.css);
+@import url(/ComponentsCss/code.css);
 
 .rating-cont{
     border: solid;

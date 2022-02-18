@@ -1,111 +1,85 @@
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 100%;
-    font-size: 100%;
-}
-.container{
-    display: flex;
-    justify-content:center;
-    height: auto;
-    overflow-y:scroll ;
-}
 
-.center{
-    border: solid;
-    width: 75%;
-    /* border: solid; 
-    display: flex;
-    flex-direction: column;
-}
-.center .cont-head{
-    text-align: center;
-    padding: 1rem;
-    font-size: 1.5rem;
-} */
 @import "/ComponentsCss/header.css";
 @import "/ComponentsCss/global.css";
 @import "/ComponentsCss/body.css"; 
+@import url(/ComponentsCss/describe.css);
+@import url(/ComponentsCss/code.css);
 
-.center .input-box{
+ .input-box{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
-.center .input-box .input-head{
+ .input-box .input-head{
     font-size: 1.5rem;
     padding: 1rem;
 }
-.center .input-box .input-tabs{
+ .input-box .input-tabs{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
 }
-.center .input-box .input-tabs .input-elem{
+ .input-box .input-tabs .input-elem{
     display: flex;
     flex-direction: column;
     width: 35%;
 }
-.center .input-box .input-tabs .input-elem.username input{
+ .input-box .input-tabs .input-elem.username input{
     height: 2rem;
     padding-left: 0.1rem;
 }
-.center .input-box .input-tabs .input-elem.username label{
+ .input-box .input-tabs .input-elem.username label{
     font-size: 1.0rem;
     font-weight: 300;
     padding-bottom: 0.3rem;
 }
-.center .input-box .input-tabs .input-elem.email input{
+ .input-box .input-tabs .input-elem.email input{
     height: 2rem;
     padding-left: 0.1rem;
 }
-.center .input-box .input-tabs .input-elem.email label{
-    font-size: 1.0rem;
-    font-weight: 300;
-    padding-bottom: 0.3rem;
-}
-
-.center .input-box .input-tabs .input-elem.password input{
-    height: 2rem;
-    padding-left: 0.1rem;
-}
-.center .input-box .input-tabs .input-elem.password label{
+ .input-box .input-tabs .input-elem.email label{
     font-size: 1.0rem;
     font-weight: 300;
     padding-bottom: 0.3rem;
 }
 
-.center .input-box .input-tabs .input-elem.password.valid input{
+ .input-box .input-tabs .input-elem.password input{
     height: 2rem;
     padding-left: 0.1rem;
 }
-.center .input-box .input-tabs .input-elem.password.valid label{
+ .input-box .input-tabs .input-elem.password label{
     font-size: 1.0rem;
     font-weight: 300;
     padding-bottom: 0.3rem;
 }
-.center .input-box .input-tabs .input-elem.password.valid .popup{
+
+ .input-box .input-tabs .input-elem.password.valid input{
+    height: 2rem;
+    padding-left: 0.1rem;
+}
+ .input-box .input-tabs .input-elem.password.valid label{
+    font-size: 1.0rem;
+    font-weight: 300;
+    padding-bottom: 0.3rem;
+}
+ .input-box .input-tabs .input-elem.password.valid .popup{
     font-size: 1.0rem;
     font-weight: 300;
     padding-bottom: 0.3rem;
     color: #d73038;
     transition: width 2s linear 1s;
 }
-.center .input-box .input-tabs .input-elem.password.valid .popup.unshow{
+ .input-box .input-tabs .input-elem.password.valid .popup.unshow{
     display: none;
 }
 
-.center .input-box .input-tabs .input-elem.textarea label{
+ .input-box .input-tabs .input-elem.textarea label{
     text-align: center;
     padding: 1rem;
 }
-.center .input-box .input-tabs .input-elem.textarea textarea{
+ .input-box .input-tabs .input-elem.textarea textarea{
     height: 5rem;
     padding: 1rem;
 }
@@ -123,41 +97,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.code {
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-    
-}
-.line {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    padding: 0.5rem;
-    position: relative;
-    left: 0%;
-}
-.line > span{
-    white-space: pre;
-}
-.code-box>.code>.line>span {
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-    white-space: pre;
-}
-.element {
-    color: #2f6f9f;
-}
-.attribute {
-    color: #006ee0;
-    padding-left: 0.3rem;
-}
-.attr-content {
-    color: #d73038;
-}
-.comment {
-    color: lightseagreen;
-}
+
 
 
 .header {

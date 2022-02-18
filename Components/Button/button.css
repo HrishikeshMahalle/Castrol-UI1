@@ -1,123 +1,54 @@
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100%;
-}
-
-.container{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.center{
-    width: 70rem;   
-}
-
-.center .head{
-    height: 5rem;
-    font-size: 2rem;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.center .head h1{
-    border-bottom: 0.2rem solid red;
-} */
 @import "/ComponentsCss/header.css";
 @import "/ComponentsCss/global.css";
 @import "/ComponentsCss/body.css"; 
+@import url(/ComponentsCss/code.css);
+@import url(/ComponentsCss/describe.css);
 
 
-.center .show-square{
+.show-square{
     display: flex;
     flex-flow: column;
-    
 }
-.center .show-square .cont-head{
+ .cont-head{
     height: 4rem;
     font-size:1.5rem;
     
 }
-.center .show-square .display-area{
+ .display-area{
     border: solid;
     display: flex;
     padding: 1rem;
     justify-content: space-evenly;
     align-items: center;
 }
-.center .show-square .display-area .button.btn-small{
+ .button.btn-sm{
     color: white;
     background-color: #009A4E;
     padding: 0.6rem;
     font-size: 0.8rem;
     border-radius: 0.3rem;
 }
-.center .show-square .display-area .button.btn-mid{
+ .button.btn-mid{
     color: white;
     background-color: #009A4E;
     padding: 0.8rem;
     font-size: 1rem;
     border-radius: 0.3rem;
 }
-.center .show-square .display-area .button.btn-large{
+ .button.btn-l{
     color: white;
     background-color: #009A4E;
     padding: 1rem;
     font-size: 1.2rem;
     border-radius: 0.3rem;
 }
-
-.code-box {
-    
-    background: #eee;
-    padding: 1.5rem 1rem;
-    border-radius: 10px;
-    margin-top: 1rem;
-}
-.code-box .code-header{
-    padding: 0.5rem;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-}
-.code {
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-    
-}
-.line {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    padding: 0.3rem;
-    position: relative;
-    left: 0%;
-}
-.code-box>.code>.line>span {
-    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-    white-space: pre;
-}
-.element {
-    color: #2f6f9f;
-}
-.attribute {
-    color: #006ee0;
-}
-.attr-content {
-    color: #d73038;
-}
-.comment {
-    color: lightseagreen;
+ .button.btn-xl{
+    color: white;
+    background-color: #009A4E;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
 }
 
 .show-square2 .cont-head{
@@ -125,53 +56,52 @@ body{
     font-size:1.5rem ;
 }
 
-.show-square2 .display-area{
+ .display-area{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     border:solid;
     padding: 0.5rem;
 }
-.show-square2 .display-area .button.btn-solid{
+ .button.btn-solid{
     padding: 1rem;
     font-size: 1rem;
     color: white;
     background-color: #009A4E;
     border-radius: 0.3rem;
 }
-.show-square2 .display-area .button.btn-outline{
+ .button.btn-outline{
     padding: 1rem;
     font-size: 1rem;
     color: #009A4E;
     border: solid #009A4E;
     border-radius: 0.3rem;
 }
-.show-square2 .display-area .button.btn-ghost{
+ .button.btn-ghost{
     padding: 1rem;
     font-size: 1rem;
     border-radius: 0.3rem;
     transition: 300ms;
 }
-.show-square2 .display-area .button.btn-ghost:hover{
+ .button.btn-ghost:hover{
     padding: 1rem;
     font-size: 1rem;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.24), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
     border-radius: 0.3rem;
 }
-.show-square2 .display-area .button.btn-line{
+ .button.btn-line{
     display: flex;
     align-items: center;
     font-size: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 1rem;
+    border: 1px transparent;
     transition: 100ms;
 }
-.show-square2 .display-area .button.btn-line:hover{
+ .button.btn-line:hover{
     display: flex;
     align-items: center;
     font-size: 1rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 1rem;
     border: 1px solid;
 }
 
@@ -188,7 +118,7 @@ body{
     gap: 2rem;
     align-items: center;
 }
-.show-square3 .button.btn-message{
+ .button.btn-message{
     padding: 1rem;
     color: white;
     background-color: #009A4E;
@@ -197,7 +127,7 @@ body{
     align-items: center;
     gap: 0.3rem;
 }
-.show-square3 .button.btn-call{
+ .button.btn-call{
     padding: 1rem;
     color: white;
     background-color: #009A4E;
@@ -221,13 +151,13 @@ body{
     padding: 1rem;
 }
 
-.show-square4 .display-area .button.btn-alert{
+ .button.btn-alert{
     padding: 1rem;
     color: white;
     background-color: #009A4E;
     border-radius: 0.3rem;
 }
-.show-square4 .display-area .button.btn-alert:active{
+ .button.btn-alert:active{
     padding: 1rem;
     color: white;
     background-color: #009a4dd8;
@@ -248,7 +178,7 @@ body{
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: #eee; 
+    background-color: rgb(255, 255, 255); 
     bottom: 0;
 }
 
