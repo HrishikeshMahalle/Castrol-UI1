@@ -65,8 +65,8 @@
 }
  .badges .icon-badge.unavailable{
     text-align: center;
-    height: 7rem;
-    width: 7rem;
+    height: 1rem;
+    width: 1rem;
     border-radius: 50%;
     position: relative;
 }
