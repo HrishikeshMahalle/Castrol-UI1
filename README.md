@@ -7,7 +7,7 @@ CASTROL UI allows you to create and design websites and webapps much faster by a
 
 ## Installation
 
-To get started with ⚡ UI, copy the below link tag into the head of your HTML head and start using the built-in components by adding various classes by referring to the documentation site.
+To get started with Castrol UI, copy the below link tag into the head of your HTML head and start using the built-in components by adding various classes by referring to the documentation site.
 
 
 <link rel="stylesheet" href="https://castrol-ui1.netlify.app/index.html">
