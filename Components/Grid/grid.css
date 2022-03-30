@@ -1,8 +1,10 @@
-@import "/ComponentsCss/header.css";
-@import "/ComponentsCss/global.css";
-@import "/ComponentsCss/body.css";
-@import "/ComponentsCss/code.css";
-@import url(/ComponentsCss/describe.css);
+@import "../../ComponentsCss/header.css";
+@import "../../ComponentsCss/global.css";
+@import "../../ComponentsCss/body.css"; 
+@import url(../../ComponentsCss/describe.css);
+@import url(../../ComponentsCss/code.css);
+@import url(../../ComponentsCss/nav.css);
+
 
 :root{
     --gird-item-color:#009A4E;
@@ -25,25 +27,29 @@
 .grid-items-3{
     display: grid;
     border: solid;
-    width: auto;
-    grid-template-columns: 5rem 5rem 5rem;
+    width: 100%;
+    grid-template-columns: auto auto auto;
     grid-template-rows:1fr;
     gap: 0.5rem;
     padding: 1rem;
+    
     box-shadow: 5px 5px 5px 5px #a9a9a9
 }
 
 .grid-item{
-    height: 5rem;
-    width: 5rem;
     background-color:var(--gird-item-color)
+    
+}
+.grid-item img{
+    height: 100%;
+    width: 100%;
 }
 
 .grid-items-2{
     display: grid;
     border: solid;
     width: auto;
-    grid-template-columns: 5rem 5rem;
+    grid-template-columns: auto auto;
     grid-template-rows:1fr 1fr;
     gap: 0.5rem;
     padding: 1rem;

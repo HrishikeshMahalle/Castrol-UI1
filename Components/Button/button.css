@@ -1,9 +1,10 @@
 
-@import "/ComponentsCss/header.css";
-@import "/ComponentsCss/global.css";
-@import "/ComponentsCss/body.css"; 
-@import url(/ComponentsCss/code.css);
-@import url(/ComponentsCss/describe.css);
+@import "../../ComponentsCss/header.css";
+@import "../../ComponentsCss/global.css";
+@import "../../ComponentsCss/body.css"; 
+@import url(../../ComponentsCss/describe.css);
+@import url(../../ComponentsCss/code.css);
+@import url(../../ComponentsCss/nav.css);
 
 
 .show-square{
@@ -149,6 +150,51 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
+}
+
+.show-square5 .cont-head{
+    padding: 1rem;
+    font-size:1.5rem ;
+}
+.show-square5 .display-area{
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.display-area-float {
+    position: absolute;
+    bottom: 1rem;
+    right:10rem;
+}
+.btn-float{
+    padding: 1rem;
+    color: white;
+    background-color: #009A4E;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.btn-float-me{
+    display: none;
+}
+.btn-float-me.show{
+    padding: 1rem;
+    color: white;
+    position: fixed;
+    background-color: #009A4E;
+    border-radius: 0.3rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    bottom: 1rem;
+    right: 1rem;
+}
+.display-area-float.show {
+    position: fixed;
+    bottom: 0;
 }
 
  .button.btn-alert{

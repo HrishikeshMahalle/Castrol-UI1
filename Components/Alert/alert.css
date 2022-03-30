@@ -1,8 +1,9 @@
-@import "/ComponentsCss/header.css";
-@import "/ComponentsCss/global.css";
-@import "/ComponentsCss/body.css"; 
-@import url(/ComponentsCss/describe.css);
-@import url(/ComponentsCss/code.css);
+@import "../../ComponentsCss/header.css";
+@import "../../ComponentsCss/global.css";
+@import "../../ComponentsCss/body.css"; 
+@import url(../../ComponentsCss/describe.css);
+@import url(../../ComponentsCss/code.css);
+@import url(../../ComponentsCss/nav.css);
 
 :root{
     --danger:#F8D7DA;

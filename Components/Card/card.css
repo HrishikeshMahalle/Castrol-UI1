@@ -1,8 +1,9 @@
-@import "/ComponentsCss/header.css";
-@import "/ComponentsCss/global.css";
-@import "/ComponentsCss/body.css"; 
-@import url(/ComponentsCss/code.css);
-@import url(/ComponentsCss/describe.css);
+@import "../../ComponentsCss/header.css";
+@import "../../ComponentsCss/global.css";
+@import "../../ComponentsCss/body.css"; 
+@import url(../../ComponentsCss/describe.css);
+@import url(../../ComponentsCss/code.css);
+@import url(../../ComponentsCss/nav.css);
  
 .center .card-act-box{
     display: flex;
@@ -42,6 +43,7 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
+    
 }
 
 .card-item.horizontal{
@@ -450,3 +452,50 @@
     }
    
 }
+
+.card-act-box-1{
+    height: auto;
+    border: solid;
+    padding: 1rem;
+
+}
+
+.card-overlay {
+  position: relative;
+  transition: all .5s ease-in;
+}
+
+.overlay {
+  position: absolute;
+ inset: 0;
+  
+  opacity: 0;
+  visibility: none;
+  transition: .5s ease;
+  background-color: #393839;
+}
+
+.card-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-1 {
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    border-radius: 5px;
+    
+  }

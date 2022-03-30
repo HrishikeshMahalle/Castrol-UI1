@@ -54,6 +54,23 @@
         </div>
     </header>
     <div class="container">
+        <div class="nav">
+            <a href="../Alert/alert.html">Alert</a>
+            <a href="../Badge/Badge.html">Badge</a>
+            <a href="../Button/button.html">Button</a>
+            <a href="../Card/card.html">Card</a>
+            <a href="../Grid/grid.html">Grid</a>
+            <a href="../Icons/icons.html">Avatar</a>
+            <a href="../Image/image.html">Image</a>
+            <a href="../Inputbox/inputbox.html">InputBox</a>
+            <a href="../Lists/List.html">List</a>
+            <a href="../Modal/modal.html">Modal</a>
+            <a href="../Navigations/navigations.html">Navigations</a>
+            <a href="../Ratings/Rating.html">Ratings</a>
+            <a href="../SnackBar/snackbar.html">SnackBar</a>
+            <a href="../Text Utlities/textutil.html">Text Utilities</a>
+          
+        </div>
         <div class="center">
             <div class="cont-head">
                 <h1>Buttons</h1>
@@ -295,9 +312,63 @@
                     </div>
                 </div>
             </div>
+            <div class="show-square5">
+                <div class="cont-head">Floating Button</div>
+                <div class="display-area">
+                    <div class="button btn-float">Float</div>
+                </div>
+                <div class="display-code">
+                    <div class="code-box">
+                        <div class="code-header"> Code Preview</div>
+                        <div class="code">
+                            <div class="line">
+                                <span class="sym"><</span>
+                                <span class="element">button</span>
+                                <span class="attribute"> class</span>
+                                <span class="sym">=</span>
+                                <span class="attr-content">"button btn-alert"</span>
+                                <span class="sym">></span>
+                                <span class="attr-content" style="color: black;">Button</span>
+                                <span class="sym"><</span>
+                                <span class="sym">/</span>
+                                <span class="element">button</span>
+                                <span class="sym">></span>
+                            </div>
+                        </div>
+                        <div class="code">
+                            <div class="line">
+                                <span class="sym"><</span>
+                                <span class="element">button</span>
+                                <span class="attribute"> class</span>
+                                <span class="sym">=</span>
+                                <span class="attr-content">"alert-square"</span>
+                                <span class="sym">></span>
+                                <span class="attr-content" style="color: black;">Button</span>
+                            </div>
+                            <div class="line"  style="padding-left:1rem;">
+                                <span class="sym"><</span>
+                                <span class="element">div</span>
+                                <span class="attribute"> class</span>
+                                <span class="sym">=</span>
+                                <span class="attr-content">"closeBtn"</span>
+                                <span class="sym">></span>
+                                <span class="attr-content" style="color: black;">Button</span>
+                            </div>
 
-            
+
+                            <div class="line">
+                                <span class="sym"><</span>
+                                <span class="sym">/</span>
+                                <span class="element">button</span>
+                                <span class="sym">></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
         </div>
+        <div class="button btn-float-me"><i class="fab fa-whatsapp"></i></div>
+        
         <div class="alert-square"><span>This is a Alert Box</span> <div class="closeBtn"><i class="fab fa-xbox"></i></div></div>
     </div>
 </body>
@@ -317,6 +388,18 @@
 
     closeBtn.addEventListener('click',()=>{
         sleBtn.classList.remove("show")
+    })
+
+    const showFloat = document.querySelector(".btn-float")
+    const btnFloat = document.querySelector(".btn-float-me")
+    
+    showFloat.addEventListener('click',()=>{
+        console.log("Click-show")
+        if(btnFloat.classList.contains("show")){
+            btnFloat.classList.remove("show")
+        }else{
+            btnFloat.classList.add("show")
+        }
     })
 
 

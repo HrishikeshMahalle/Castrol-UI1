@@ -1,8 +1,10 @@
-@import "/ComponentsCss/header.css";
-@import "/ComponentsCss/global.css";
-@import "/ComponentsCss/body.css"; 
-@import url(/ComponentsCss/describe.css);
-@import url(/ComponentsCss/code.css);
+@import "../../ComponentsCss/header.css";
+@import "../../ComponentsCss/global.css";
+@import "../../ComponentsCss/body.css"; 
+@import url(../../ComponentsCss/describe.css);
+@import url(../../ComponentsCss/code.css);
+@import url(../../ComponentsCss/nav.css);
+
 
 :root {
     --bg-color:#3e8e41;
@@ -11,11 +13,11 @@
  .image-cont .images{
     display: flex;
     justify-content: center;
+    
 }
  .image-cont .images .image-item{
    border: solid;
-   padding: 0.5rem;
-   max-width: 20rem;
+   padding: 1rem;
    
 }
  .image-cont .images .image-item img{
@@ -29,7 +31,7 @@
  .image-cont .images .image-item.circle{
    border: solid;
    padding: 0.5rem;
-   max-width: 20rem;
+   max-width: 30rem;
    border-radius: 50%;
 
    

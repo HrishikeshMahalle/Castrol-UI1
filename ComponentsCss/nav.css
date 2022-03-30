@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex: 0.25;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav a{
+    padding: 1rem;
+    background-color: #3e8e41;
+    border-radius: 3rem 3rem 3rem 3rem; 
+    color: white;
+    margin-top: 0.1rem;
+    text-shadow: 2px 2px 1px black;
+}
